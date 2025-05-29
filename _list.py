@@ -10,7 +10,3 @@ a[2] = "uttam"
 a.append("nepali")
 print(a)
 
-names = ["uttam", "nepali", "raj", "jain"]
-names.pop(1)
-
-print(names)
