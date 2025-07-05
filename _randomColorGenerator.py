@@ -3,6 +3,7 @@ import random
 print("Welcom to the random color generator ! Let's get started")
 
 def random_color():
+    try:   
      colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "brown", "black", "white"]
      shuffle_colors = colors[:]
      random.shuffle(shuffle_colors)
@@ -24,4 +25,9 @@ def random_color():
                 print("The color is not available")
          else:
             print("The color you entered is not available")
+            
+    except KeyboardInterrupt:
+       print("You pressed ctrl+c")
+       exit()
+       
 random_color()
