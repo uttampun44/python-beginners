@@ -1,7 +1,3 @@
-fruits = ['apple', 'banana', 'orange', 'mango', 'grape', 'strawberry']
-
-for i in range(len(fruits)):
-    print(fruits[i])
 
 # list
 person_details = []
